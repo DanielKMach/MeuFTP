@@ -1,0 +1,48 @@
+[2023-09-19 03:02:21] concurrency model: async
+[2023-09-19 03:02:21] masquerade (NAT) address: None
+[2023-09-19 03:02:21] passive ports: None
+[2023-09-19 03:02:21] >>> starting FTP server on 192.168.100.122:2005, pid=17708 <<<
+[2023-09-19 03:02:33] <192.168.100.102> FTP session opened (connect)
+[2023-09-19 03:02:33] <192.168.100.102> USER 'anonymous' logged in.
+[2023-09-19 03:02:33] <192.168.100.102> CWD C:\Users\danie\DEV\Python\Servidor FTP 250
+[2023-09-19 03:03:13] concurrency model: async
+[2023-09-19 03:03:13] masquerade (NAT) address: None
+[2023-09-19 03:03:13] passive ports: None
+[2023-09-19 03:03:13] >>> starting FTP server on 192.168.100.122:2005, pid=18232 <<<
+[2023-09-19 03:04:12] concurrency model: async
+[2023-09-19 03:04:12] masquerade (NAT) address: None
+[2023-09-19 03:04:12] passive ports: None
+[2023-09-19 03:04:12] >>> starting FTP server on 192.168.100.122:2005, pid=5192 <<<
+[2023-09-19 14:06:13] concurrency model: async
+[2023-09-19 14:06:13] masquerade (NAT) address: None
+[2023-09-19 14:06:13] passive ports: None
+[2023-09-19 14:06:13] >>> starting FTP server on 192.168.61.183:2005, pid=5328 <<<
+[2023-09-19 14:06:46] <192.168.61.179> FTP session opened (connect)
+[2023-09-19 14:06:46] <192.168.61.179> USER 'anonymous' logged in.
+[2023-09-19 14:06:46] <192.168.61.179> CWD C:\Users\danie\Downloads 250
+[2023-09-19 14:06:46] <192.168.61.179> FTP session closed (disconnect).
+[2023-09-19 14:07:18] <192.168.61.179> FTP session opened (connect)
+[2023-09-19 14:07:18] <192.168.61.179> USER 'anonymous' logged in.
+[2023-09-19 14:07:18] <192.168.61.179> CWD C:\Users\danie\Downloads 250
+[2023-09-19 14:07:19] <192.168.61.179> RETR C:\Users\danie\Downloads\DALL·E 2023-08-20 20.19.33 - beautiful view from a balcony.png completed=1 bytes=1379486 seconds=0.516
+[2023-09-19 14:07:20] <192.168.61.179> FTP session opened (connect)
+[2023-09-19 14:07:20] <192.168.61.179> USER 'anonymous' logged in.
+[2023-09-19 14:07:20] <192.168.61.179> CWD C:\Users\danie\Downloads 250
+[2023-09-19 14:07:20] <192.168.61.179> FTP session closed (disconnect).
+[2023-09-19 14:07:20] <192.168.61.179> FTP session opened (connect)
+[2023-09-19 14:07:20] <192.168.61.179> USER 'anonymous' logged in.
+[2023-09-19 14:07:20] <192.168.61.179> CWD C:\Users\danie\Downloads 250
+[2023-09-19 14:07:21] <192.168.61.179> RETR C:\Users\danie\Downloads\DALL·E 2023-08-25 02.22.10 - Blue mountains with a blue a blue sky. Oil painting. Van Gogh style..png completed=1 bytes=5564660 seconds=1.656
+[2023-09-19 14:07:22] <192.168.61.179> RETR C:\Users\danie\Downloads\DALL·E 2023-08-25 01.59.42 - Blue mountains with a blue a blue sky. Oil painting. Van Gogh style..png completed=1 bytes=2872945 seconds=0.953
+[2023-09-19 14:07:22] <192.168.61.179> RETR C:\Users\danie\Downloads\DALL·E 2023-08-20 20.24.10 - beautiful view from a balcony.png completed=1 bytes=2248532 seconds=0.703
+[2023-09-19 14:07:34] <192.168.61.179> RETR C:\Users\danie\Downloads\Drawing 1.png completed=1 bytes=217 seconds=0.063
+[2023-09-19 14:07:34] <192.168.61.179> RETR C:\Users\danie\Downloads\images-solid.png completed=1 bytes=3312 seconds=0.016
+[2023-09-19 14:07:42] <192.168.61.179> FTP session closed (disconnect).
+[2023-09-19 14:07:44] <192.168.61.179> RETR C:\Users\danie\Downloads\Drawing 1.png completed=1 bytes=217 seconds=0.0
+[2023-09-19 14:07:44] <192.168.61.179> FTP session opened (connect)
+[2023-09-19 14:07:44] <192.168.61.179> USER 'anonymous' logged in.
+[2023-09-19 14:07:44] <192.168.61.179> CWD C:\Users\danie\Downloads 250
+[2023-09-19 14:07:45] <192.168.61.179> RETR C:\Users\danie\Downloads\images-solid.png completed=1 bytes=3312 seconds=0.0
+[2023-09-19 14:07:46] <192.168.61.179> RETR C:\Users\danie\Downloads\DALL·E 2023-08-25 02.22.10 - Blue mountains with a blue a blue sky. Oil painting. Van Gogh style..png completed=1 bytes=5564660 seconds=1.672
+[2023-09-19 14:07:46] <192.168.61.179> FTP session closed (disconnect).
+[2023-09-19 14:08:40] <192.168.61.179> FTP session closed (disconnect).
