@@ -21,7 +21,7 @@ authorizer: DummyAuthorizer
 
 logger = logging.getLogger("pyftpdlib")
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler("C:\\Users\\danie\\DEV\\Python\\Servidor FTP\\dkmftp.log")
+fh = logging.FileHandler("meuftp.log")
 fh.setFormatter(logging.Formatter("[%(asctime)s] %(message)s", "%Y-%m-%d %H:%M:%S"))
 logger.addHandler(fh)
 
@@ -107,7 +107,7 @@ def init():
 
 
 if __name__ == "__main__":
-	print("Bem vindo ao DKM-FTP!")
+	print("Bem vindo ao MeuFTP!")
 	ask_for_permission()
 	print()
 	init()
