@@ -63,19 +63,22 @@ fn install_windows() anyerror!void {
 fn install_linux() anyerror!void {
     _ = try out.write("Instalando MeuFTP para Linux...\n");
 
-    const path = "~/home/bin/";
+    const path = "/usr/local/bin/";
     const file_name = "meuftp";
 
-    // Criando e acessando o arquivo
+    // Acessando pasta do destino
     var dir = try std.fs.openDirAbsolute(path, .{});
     defer dir.close();
 
+    // Criando e abrindo o arquivo
     var file = try dir.createFile(file_name, .{});
     defer file.close();
 
     // Escrevendo para o arquivo
     const content = try std.fmt.allocPrint(alloc, "#!/bin/bash\n\npython3 \"{s}/src/meuftp.py\"", .{try std.fs.cwd().realpathAlloc(alloc, ".")});
-    _ = try file.writeAll(content, .{});
+    _ = try file.writeAll(
+        content,
+    );
 }
 
 fn install_unknown() anyerror!void {
